@@ -2,38 +2,53 @@
 #include "include/Percolation.h"
 #include "include/QuickUnion.h"
 
-int main(int, char**) {
-    std::cout << "Hello, world!\n";
+#include <QApplication>
+#include <QPushButton>
+#include <QWidget>
+#include <QWindow>
+#include <QBoxLayout>
+#include <QPushButton>
 
-    //Percolation p(40);
-    //std::cout << p.isFull(1,1) ;
-    QuickUnion un(8);
+#include <QPainter>
 
-   
-    un.connect(0,1);
-     std::cout << "(3,4)" << un.isConnected(3,4) << std::endl ;
-    un.connect(1,3);
-     std::cout << "(3,4)" << un.isConnected(3,4) << std::endl ;
-     un.connect(4,1);
-    std::cout << "(3,4)" << un.isConnected(3,4) << std::endl ;
-    std::cout << "(1,7)" << un.isConnected(1,7) << std::endl ;
-    un.connect(5,6);
-    std::cout << "(1,7)" << un.isConnected(1,7) << std::endl ;
-     un.connect(5,7);
-     std::cout << "(1,7)" << un.isConnected(1,7) << std::endl ;
-      un.connect(4,7);
-      std::cout << "(1,7)" << un.isConnected(1,7) << std::endl ;
-
-      Percolation p(40);
-
-      std::cout << "isOpen(0,13)" << p.isOpen(0,13) << std::endl ;
-      p.open(0,13);
-      std::cout << "isOpen(0,13)" << p.isOpen(0,13) << std::endl ;
-      std::cout << "isOpen(35,10)" << p.isOpen(35,10) << std::endl ;
-      p.open(35,10);
-      std::cout << "isOpen(35,10)" << p.isOpen(35,10) << std::endl ;
+#include "MyWidget.h"
 
 
 
-    
+int main(int argc, char **argv)
+{
+
+ QApplication app (argc, argv);
+
+ Percolation p(8);
+ MyWidget *myw = new MyWidget(&p);
+
+  QWidget *window = new QWidget;
+  QPushButton *button2 = new QPushButton("Two");
+  QPushButton *button3 = new QPushButton("Three");
+  QPushButton *button4 = new QPushButton("Four");
+  QPushButton *button5 = new QPushButton("Five");
+
+  QVBoxLayout *layout = new QVBoxLayout(window);
+  layout->addWidget(myw);
+  layout->addWidget(button2);
+  layout->addWidget(button3);
+  layout->addWidget(button4);
+  layout->addWidget(button5);
+
+  window->show();
+
+ //QPushButton button ("Hello world !");
+ //button.show();
+ return app.exec();
 }
+
+
+
+
+
+
+
+
+
+  

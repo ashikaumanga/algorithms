@@ -16,6 +16,8 @@ class Percolation {
    // [r0c0,r0c1,...r0c-size-1],[r1c0r1c1,.... r1c-size-1]
    int size; //grid size (size x size)
    int openSites = 0;
+
+   int getUnionIndex(int row, int col);
    
   public:
    Percolation(int size);
@@ -24,6 +26,7 @@ class Percolation {
    bool isOpen(int row, int col);
    bool isFull(int row, int col);
    int numberOfOpenSites();
+   int gridSize();
 
    bool percolates();
 

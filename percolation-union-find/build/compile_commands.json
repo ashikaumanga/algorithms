@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/include -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/include -isystem /usr/local/include -isystem /usr/local/lib/QtWidgets.framework/Headers -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/share/qt/mkspecs/macx-clang -isystem /usr/local/lib/QtGui.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++17 -o CMakeFiles/union.dir/union_autogen/mocs_compilation.cpp.o -c /Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/mocs_compilation.cpp",
+  "file": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/include -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/include -isystem /usr/local/include -isystem /usr/local/lib/QtWidgets.framework/Headers -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/share/qt/mkspecs/macx-clang -isystem /usr/local/lib/QtGui.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++17 -o CMakeFiles/union.dir/main.cpp.o -c /Users/ashika.umanga/git-repos/algorithms/percolation-union-find/main.cpp",
+  "file": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/main.cpp"
+},
+{
+  "directory": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/include -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/include -isystem /usr/local/include -isystem /usr/local/lib/QtWidgets.framework/Headers -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/share/qt/mkspecs/macx-clang -isystem /usr/local/lib/QtGui.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++17 -o CMakeFiles/union.dir/src/Percolation.cpp.o -c /Users/ashika.umanga/git-repos/algorithms/percolation-union-find/src/Percolation.cpp",
+  "file": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/src/Percolation.cpp"
+},
+{
+  "directory": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/include -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/include -isystem /usr/local/include -isystem /usr/local/lib/QtWidgets.framework/Headers -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/share/qt/mkspecs/macx-clang -isystem /usr/local/lib/QtGui.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++17 -o CMakeFiles/union.dir/src/QuickUnion.cpp.o -c /Users/ashika.umanga/git-repos/algorithms/percolation-union-find/src/QuickUnion.cpp",
+  "file": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/src/QuickUnion.cpp"
+},
+{
+  "directory": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/build/union_autogen/include -I/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/include -isystem /usr/local/include -isystem /usr/local/lib/QtWidgets.framework/Headers -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/share/qt/mkspecs/macx-clang -isystem /usr/local/lib/QtGui.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++17 -o CMakeFiles/union.dir/MyWidget.cpp.o -c /Users/ashika.umanga/git-repos/algorithms/percolation-union-find/MyWidget.cpp",
+  "file": "/Users/ashika.umanga/git-repos/algorithms/percolation-union-find/MyWidget.cpp"
+}
+]
